@@ -4,6 +4,7 @@ $uri = $_SERVER['REQUEST_URI'];
 $routes = [
     '/' => './controller/HomePageController.php',
     '/about' => './controller/AboutController.php',
+    '/contact' => './controller/ContactController.php'
 ];
 function routeToController($uri, $routes)
 {
